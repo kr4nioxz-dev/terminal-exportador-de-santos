@@ -1,10 +1,9 @@
-![Stars](https://img.shields.io/github/stars/kr4nioxz-dev/Terminal-Exportador-de-Santos?style=for-the-badge&logo=github)
-![Forks](https://img.shields.io/github/forks/kr4nioxz-dev/Terminal-Exportador-de-Santos?style=for-the-badge&logo=github)
-![Issues](https://img.shields.io/github/issues/kr4nioxz-dev/Terminal-Exportador-de-Santos?style=for-the-badge)
-![Repo Size](https://img.shields.io/github/repo-size/kr4nioxz-dev/Terminal-Exportador-de-Santos?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/kr4nioxz-dev/Terminal-Exportador-de-Santos?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/kr4nioxz-dev/Terminal-Exportador-de-Santos?style=for-the-badge&logo=github&cacheSeconds=0)
+![Visitors](https://img.shields.io/endpoint?url=https://hits.dwyl.com/kr4nioxz-dev/Terminal-Exportador-de-Santos.json&style=for-the-badge&label=VISITORS)
 
-<h1 align="center">TES - Terminal Exportador de Santos</h1>
+---
+
+<h1 align="center">TES - TERMINAL EXPORTADOR DE SANTOS</h1>
 
 <p align="center">
   Página Institucional Melhorada
@@ -13,8 +12,6 @@
 ---
 
 ## Arquivos / Estrutura
-
----
 
 Este projeto usa 3 arquivos:
 
@@ -56,16 +53,20 @@ Este projeto usa 3 arquivos:
 
 ## Acessando o Site
 
----
+Acesse clicando no link **REAL** do site a seguir: www.tessantos.com.br
 
-Acesse clicando no link a seguir: www.tessantos.com.br
+Ou acesse meu prjeto pessoal abrindo o arquivo `index.html` no chrome
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ---
 
-> **Nota Temporária:**
+> ***Nota Importante:***
 >
-> Os dados institucionais e históricos foram redigidos de forma original a partir de informações públicas da TES. O gráfico declara explicitamente que os números são históricos publicados até 2022.
+> Os dados institucionais e históricos foram redigidos de forma original a partir de informações públicas do Terminal Exportador de Santos. Os indicadores declaram explicitamente que os números são históricos publicados até o ano de 2022.
 > 
-> Este projeto foi projetado para fins de estudo.
+> **Este projeto foi desenvolvido com fins educacionais, visando a prática e o aprimoramento de conhecimentos em desenvolvimento web.**
+
+---
+
+![Version](https://img.shields.io/badge/Version-v26.2.1-blue?style=for-the-badge&logo=git)
