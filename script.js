@@ -1,7 +1,4 @@
 /* ==========================================================================
-   TES — Terminal Exportador de Santos
-   Arquivo de comportamento (JavaScript)
-
    IMPORTANTE: este arquivo precisa estar SALVO como "script.js" na MESMA
    PASTA do "index.html". O HTML tem a linha, logo antes de </body>:
        <script src="script.js"></script>
