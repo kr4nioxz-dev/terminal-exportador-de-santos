@@ -85,19 +85,19 @@ Este projeto usa 2 pastas:
 
 `Prefixo de Ano` **Todas as versões começam com o ano atual.**
 
-Exemplo: ano = 2026, prefixo = 26
+- Exemplo: **ano = 2026; prefixo = 26**
 
 `Mudança de Ano` **Quando o ano virar, a o prefixo acompanhará essa mudança.**
 
-Exemplo: 26.1.1, 27.1.1
+- Exemplo: **26.1.1, 27.1.1**
 
 `Número da Atualização` **O segundo dígito indica qual é a grande atualização daquele ano.**
 
-Exemplo: 26.1.1, 26.2.1
+- Exemplo: **26.1.1, 26.2.1**
 
 `Correção / Melhoria` **O terceiro dígito serve para pequenos ajustes ou correções.**
 
-Exemplo: 26.1.1, 26.1.2
+- Exemplo: **26.1.1, 26.1.2**
 
 ---
 
