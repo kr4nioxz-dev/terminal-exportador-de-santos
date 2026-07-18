@@ -82,13 +82,21 @@ Este projeto usa 2 pastas:
 
 ## Lógica das Versões
 
-`Prefixo de Ano` Todas as versões começam com o ano atual **(por exemplo, se o ano for 2026, começará com: 26.**
+`Prefixo de Ano` **Todas as versões começam com o ano atual.**
 
-`Mudança de Ano` Quando o ano virar, a o prefixo acompanhará essa mudança **(exemplo: 26.1.1, 27.1.1).**
+Exemplo: ano = 2026, prefixo = 26
 
-`Número da Atualização` O segundo dígito indica qual é a grande atualização daquele ano **(exemplo: 26.1.1, 26.2.1).**
+`Mudança de Ano` **Quando o ano virar, a o prefixo acompanhará essa mudança.**
 
-`Correção / Melhoria` O terceiro dígito serve para pequenos ajustes ou correções **(exemplo: 26.1.1, 26.1.2).**
+Exemplo: 26.1.1, 27.1.1
+
+`Número da Atualização` **O segundo dígito indica qual é a grande atualização daquele ano.**
+
+Exemplo: 26.1.1, 26.2.1
+
+`Correção / Melhoria` **O terceiro dígito serve para pequenos ajustes ou correções.**
+
+Exemplo: 26.1.1, 26.1.2
 
 ---
 
