@@ -98,7 +98,7 @@ Exemplo: 26.1.1, 26.2.1
 
 Exemplo: 26.1.1, 26.1.2
 
----
+----
 
 > ***Nota Importante:***
 >
@@ -106,6 +106,6 @@ Exemplo: 26.1.1, 26.1.2
 > 
 > **Este projeto foi desenvolvido com fins educacionais, visando a prática e o aprimoramento de conhecimentos em desenvolvimento web.**
 
----
+----
 
 ![Versão](https://img.shields.io/badge/Vers%C3%A3o-v26.2.5-blue?style=for-the-badge&logo=git)
