@@ -1,5 +1,5 @@
 
-![Versão](https://img.shields.io/badge/Vers%C3%A3o-v26.4.6-blue?style=for-the-badge&logo=git)
+![Versão](https://img.shields.io/badge/Vers%C3%A3o-v26.5.7-blue?style=for-the-badge&logo=git)
 
 <h1 align="center">TES - Terminal Exportador de Santos</h1>
 
@@ -26,7 +26,7 @@ Este projeto usa 3 arquivos:
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5 logo" />
     </td>
     <td>
-      <strong>HTML5</strong> - HyperText Markup Language<br>
+      <strong>HTML5</strong><br>
       <code>index.html</code> Contém toda a estrutura e o conteúdo da página.
     </td>
   </tr>
@@ -36,7 +36,7 @@ Este projeto usa 3 arquivos:
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3 logo" />
     </td>
     <td>
-      <strong>CSS3</strong> - Cascading Style Sheets<br>
+      <strong>CSS3</strong><br>
       <code>styles.css</code> Contém toda a aparência: cores, fontes, animações etc.
     </td>
   </tr>
