@@ -62,7 +62,7 @@ Este projeto usa 2 pastas:
     📁
   </td>
   <td>
-    <strong>Pictures</strong><br>
+    <strong>Photos</strong><br>
     <code>assets/photos/</code> Contém todas as fotos usadas no site.
   </td>
 </tr>
