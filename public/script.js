@@ -1,23 +1,17 @@
 /* ==========================================================================
-   IMPORTANTE: este arquivo precisa estar SALVO como "script.js" na MESMA
-   PASTA do "index.html". O HTML tem a linha, logo antes de </body>:
-       <script src="script.js"></script>
-   Essa linha diz ao navegador "depois de montar toda a página, vá buscar
-   o arquivo script.js do lado e execute esse código". Se o arquivo não
-   existir com esse nome, na mesma pasta, o navegador ignora silenciosamente
-   (geralmente sem nem mostrar erro visível para quem só está olhando a
-   página) e NADA do que está aqui dentro funciona: nem o menu mobile, nem
+   IMPORTANTE
+   NADA do que está aqui dentro funciona: nem o menu mobile, nem
    o efeito de rolagem no header, nem as animações de "aparecer" ao rolar,
    nem o formulário de contato.
 
    Tudo aqui dentro está dentro de uma IIFE: (() => { ... })();
    Isso é só uma forma de "empacotar" o código para que as variáveis
    declaradas aqui não vazem para o restante da página (boa prática,
-   evita conflito de nomes caso você adicione outros scripts no futuro).
+   evita conflito de nomes caso adicione outros scripts no futuro).
    ========================================================================== */
 (() => {
   /* ------------------------------------------------------------------------
-     1) SELEÇÃO DOS ELEMENTOS QUE VAMOS CONTROLAR
+     SELEÇÃO DOS ELEMENTOS QUE VAMOS CONTROLAR
      document.querySelector busca UM elemento que combine com o seletor CSS
      indicado. Os atributos "data-algo" no HTML (ex: data-header) servem
      exatamente para isso: são "ganchos" que o JS usa para achar o elemento
@@ -31,7 +25,7 @@
   const menuLinks = mobileMenu ? mobileMenu.querySelectorAll('a') : [];
 
   /* ------------------------------------------------------------------------
-     2) MENU MOBILE (abrir/fechar)
+     MENU MOBILE (abrir/fechar)
      ------------------------------------------------------------------------ */
   const closeMenu = () => {
     if (!menuToggle || !mobileMenu) return; // segurança: se algum dos dois não existir no HTML, não faz nada
@@ -64,13 +58,13 @@
   });
 
   /* ------------------------------------------------------------------------
-     3) COMPORTAMENTO AO ROLAR A PÁGINA (SCROLL)
+     COMPORTAMENTO AO ROLAR A PÁGINA (SCROLL)
      - O header ganha um fundo sólido depois que você rola um pouco (classe
-       "is-scrolled", definida no styles.css).
+     "is-scrolled", definida no styles.css).
      - O botão "voltar ao topo" só aparece depois de rolar bastante.
      ------------------------------------------------------------------------ */
   const onScroll = () => {
-    header?.classList.toggle('is-scrolled', window.scrollY > 18);   // > 18px de rolagem já ativa o fundo do header
+    header?.classList.toggle('is-scrolled', window.scrollY > 18);    // > 18px de rolagem já ativa o fundo do header
     backToTop?.classList.toggle('is-visible', window.scrollY > 700); // > 700px de rolagem mostra o botão flutuante
   };
   onScroll(); // roda uma vez assim que a página carrega, para já começar no estado correto
@@ -80,7 +74,7 @@
   window.addEventListener('scroll', onScroll, { passive: true });
 
   /* ------------------------------------------------------------------------
-     4) ANIMAÇÃO "REVEAL" — elementos aparecem suavemente ao entrar na tela
+     ANIMAÇÃO "REVEAL" - elementos aparecem suavemente ao entrar na tela
      No CSS, todo elemento com [data-reveal] começa com opacity: 0.
      Aqui usamos um IntersectionObserver, que é uma API do navegador feita
      para "observar" elementos e avisar quando eles entram ou saem da área
@@ -104,7 +98,7 @@
   }
 
   /* ------------------------------------------------------------------------
-     5) FORMULÁRIO DE CONTATO (demonstração local, sem backend)
+     FORMULÁRIO DE CONTATO (demonstração local, sem backend)
      Este formulário NÃO envia e-mail de verdade — ele só simula o envio no
      navegador. Isso é intencional nesta versão: para receber mensagens de
      verdade, você precisaria de um serviço de backend/e-mail (ex: um
@@ -120,7 +114,7 @@
   });
 
   /* ------------------------------------------------------------------------
-     6) ANO ATUAL NO RODAPÉ
+     ANO ATUAL NO RODAPÉ
      Em vez de escrever "2026" fixo no HTML (que ficaria desatualizado ano
      que vem), o JS pega o ano atual do sistema e escreve automaticamente
      dentro do <span data-current-year></span> que está no rodapé.
