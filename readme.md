@@ -1,5 +1,5 @@
 
-![Versão](https://img.shields.io/badge/Vers%C3%A3o-v26.4.5-blue?style=for-the-badge&logo=git)
+![Versão](https://img.shields.io/badge/Vers%C3%A3o-v26.4.6-blue?style=for-the-badge&logo=git)
 
 <h1 align="center">TES - Terminal Exportador de Santos</h1>
 
@@ -62,7 +62,7 @@ Este projeto usa 2 pastas:
     📁
   </td>
   <td>
-    <strong>FOTOS</strong><br>
+    <strong>Pictures</strong><br>
     <code>assets/photos/</code> Contém todas as fotos usadas no site.
   </td>
 </tr>
@@ -72,7 +72,7 @@ Este projeto usa 2 pastas:
     📁
   </td>
   <td>
-    <strong>IMAGENS</strong><br>
+    <strong>Images</strong><br>
     <code>assets/images/</code> Contém todas as imagens usadas no site.
   </td>
 </tr>
