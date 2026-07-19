@@ -1,5 +1,5 @@
 
-![Versão](https://img.shields.io/badge/Vers%C3%A3o-v26.3.5-blue?style=for-the-badge&logo=git)
+![Versão](https://img.shields.io/badge/Vers%C3%A3o-v26.4.5-blue?style=for-the-badge&logo=git)
 
 <h1 align="center">TES - Terminal Exportador de Santos</h1>
 
