@@ -100,4 +100,4 @@ Este projeto usa 2 pastas:
 
 ---
 
-![Versão](https://img.shields.io/badge/Vers%C3%A3o-v26.2.4-blue?style=for-the-badge&logo=git)
+![Versão](https://img.shields.io/badge/Vers%C3%A3o-v26.3.4-blue?style=for-the-badge&logo=git)
