@@ -1,379 +1,691 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Terminal Exportador de Santos S.A.">
-    <meta name="theme-color" content="#061b33">
+<!-- CÉREBRO -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061b33">
 
-    <meta property="og:title" content="TES">
-    <meta property="og:description" content="Do Porto de Santos para o mundo: operação portuária integrada para o agronegócio.">
-    <meta property="og:type" content="website">
+  <title>TES - Terminal Exportador de Santos</title>
+  <meta name="description" content="Do Porto de Santos para o mundo: operação portuária integrada de granéis sólidos para o agronegócio brasileiro.">
 
-    <title>TES - Terminal Exportador de Santos</title>
+  <meta property="og:title" content="TES - Terminal Exportador de Santos">
+  <meta property="og:description" content="Operação portuária integrada - rodovia, ferrovia e embarque marítimo no Porto de Santos.">
+  <meta property="og:type" content="website">
 
-    <link rel="icon" type="image/png" href="assets/images/isotipo-tes.png">
+  <meta name="twitter:card" content="summary_large_image">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="./styles.css">
+</head>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<body>
+  <!-- HEADER -->
+  <header class="site-header" data-header>
+    <div class="header-shell container">
+      <a class="brand" href="#inicio" aria-label="TES - voltar ao início">
+        <span class="brand-mark" aria-hidden="true">TES</span>
+        <span class="brand-copy">
+          <b>TES</b>
+          <small>Terminal Exportador de Santos</small>
+        </span>
+      </a>
 
-    <link rel="stylesheet" href="styles.css">
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#quemsomos">Quem Somos</a>
+        <a href="#comochegar">Como Chegar</a>
+        <a href="#linksuteis">Links Úteis</a>
+        <a href="#missaovisaovalores">Missão, Visão e Valores</a>
+        <a href="#principioseticos">Princípios Éticos</a>
+        <a href="https://site.vagas.com.br/MsgPagEmprDesativ-Benvido.asp?t=2645">Trabalhe Conosco</a>
+      </nav>
 
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "TES - Terminal Exportador de Santos",
-        "url": "https://www.tessantos.com.br/",
-        "email": "contato@tesporto.com.br",
-        "telephone": "+55 (13) 3278-1700",
-  
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Avenida Governador Mário Covas Júnior, s/n, Armazéns XL, XLII e 38",
-          "addressLocality": "Santos",
-          "addressRegion": "SP",
-          "postalCode": "11020-300",
-          "addressCountry": "BR"
-        },
-        "sameAs": ["https://www.linkedin.com/company/tegteagtes/"]
-      }
-    </script>
-  </head>
+      <a class="header-cta button button-small button-primary" href="#contato">
+        Fale com o TES <span aria-hidden="true">↗</span>
+      </a>
 
-  <body>
-    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+        <span class="sr-only">Abrir menu</span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
 
-    <header class="site-header" data-header>
-      <div class="header-shell container">
-        <a class="brand" href="#inicio" aria-label="TES - voltar ao início">
-          <span class="brand-mark" aria-hidden="true">
-            <img src="assets/images/isotipo-tes.png">
-          </span>
-          <span class="brand-copy"><b>TES</b><small>Terminal Exportador de Santos</small></span>
-        </a>
+    <div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
+      <nav aria-label="Navegação mobile">
+        <a href="#quemsomos">Quem Somos</a>
+        <a href="#comochegar">Como Chegar</a>
+        <a href="#linksuteis">Links Úteis</a>
+        <a href="#missaovisaovalores">Missão, Visão e Valores</a>
+        <a href="#principioseticos">Princípios Éticos</a>
+        <a href="https://site.vagas.com.br/MsgPagEmprDesativ-Benvido.asp?t=2645">Trabalhe Conosco</a>
+        <a href="#contato">Fale com o TES</a>
+      </nav>
+    </div>
+  </header>
 
-        <nav class="desktop-nav" aria-label="Navegação principal">
-          <a href="#quemsomos">Quem Somos</a>
-          <a href="#comochegar">Como Chegar</a>
-          <a href="#linksuteis">Links Úteis</a>
-          <a href="#missaovisaovalores">Visão, Missão e Valores</a>
-          <a href="#principioseticos">Princípios Éticos</a>
-          <a href="https://site.vagas.com.br/MsgPagEmprDesativ-Benvido.asp?t=340" target="_blank" rel="noopener noreferrer">Trabalhe Conosco</a>
-        </nav>
-
-        <a class="header-cta button button-small button-primary" href="#contato">Fale com o TES <span aria-hidden="true">↗</span></a>
-        <!-- Botão "hamburguer" (só visível no mobile via CSS).
-             data-menu-toggle: gancho que o script.js usa para abrir/fechar o menu.
-             aria-expanded começa em "false" e o JS alterna para "true" ao abrir
-             (isso também é o que o CSS usa para animar as duas barrinhas em "X"). -->
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
-          <span class="sr-only">Abrir menu</span>
-          <span></span><span></span>
-        </button>
+  <main id="conteudo">
+    <!-- HERO -->
+    <section class="hero section" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-routes" aria-hidden="true">
+        <span class="route route-rail"></span>
+        <span class="route route-road"></span>
+        <span class="route route-sea"></span>
       </div>
 
-      <!-- Painel do menu mobile: começa com o atributo "hidden" (invisível).
-           data-mobile-menu: gancho usado pelo script.js para mostrar/esconder este painel. -->
-      <div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
-        <nav aria-label="Navegação mobile">
-          <a href="#quemsomos">Quem Somos</a>
-          <a href="#comochegar">Como Chegar</a>
-          <a href="#linksuteis">Links Úteis</a>
-          <a href="#missaovisaovalores">Visão/Missão/Valores</a>
-          <a href="#principioseticos">Princípios Éticos</a>
-          <a href="https://site.vagas.com.br/MsgPagEmprDesativ-Benvido.asp?t=340" target="_blank" rel="noopener noreferrer">Trabalhe Conosco</a>
-        </nav>
+      <div class="container hero-layout">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow eyebrow-light"><span></span>PORTO DE SANTOS · SP</p>
+          <h1 id="hero-title">Do Porto de Santos <em>para o mundo.</em></h1>
+
+          <p class="hero-lead">
+            Integramos rodovia, ferrovia e embarque marítimo em uma operação preparada para levar
+            a força do agronegócio brasileiro mundo afora.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#quemsomos">Conheça o TES <span aria-hidden="true">↓</span></a>
+            <a class="button button-ghost" href="#contato">Entre em contato <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Resumo do TES" data-reveal>
+          <div class="hero-panel-top"><span class="pulse-dot" aria-hidden="true"></span>Terminal Conectado</div>
+          <p>Movimentação recorde em toneladas</p>
+          <div class="hero-kpi"><strong>4,49 milhões</strong><span>STS 04 (2022)</span></div>
+          <div class="hero-panel-bottom"><span>BRASIL · SÃO PAULO · SANTOS</span></div>
+        </aside>
       </div>
-    </header>
 
-    <main id="conteudo">
-      <!-- SEÇÃO HERO (abertura de tela cheia)
-           data-reveal (usado em vários pontos da página a partir daqui):
-           gancho que o script.js usa junto com IntersectionObserver para
-           fazer o elemento surgir suavemente quando entra na tela ao rolar.
-           Sem o script.js conectado, todo elemento com data-reveal fica
-           travado em opacity: 0 (invisível) — por causa da regra no CSS:
-           [data-reveal] { opacity: 0; ... }
-           Isso também contribuía para a impressão de página "quebrada". -->
-      <section class="hero section" id="inicio" aria-labelledby="hero-title">
-        <div class="hero-media" aria-hidden="true"></div>
-        <div class="hero-routes" aria-hidden="true">
-          <span class="route route-rail"></span><span class="route route-road"></span><span class="route route-sea"></span>
+      <div class="hero-scroll container" aria-hidden="true">
+        <span>Explore o Terminal</span><i></i>
+      </div>
+    </section>
+
+    <!-- CREDENCIAIS -->
+    <section class="credentials" aria-label="Destaques institucionais">
+      <div class="container credentials-grid" data-reveal>
+        <div class="credential"><span class="credential-icon icon-archive" aria-hidden="true"></span><div><b>Desde 2015</b><small>História de integração</small></div></div>
+        <div class="credential"><span class="credential-icon icon-silo" aria-hidden="true"></span><div><b>11 silos de concreto</b><small>Infraestrutura de armazenamento</small></div></div>
+        <div class="credential"><span class="credential-icon icon-grain" aria-hidden="true"></span><div><b>Soja, milho e farelo</b><small>Commodities movimentadas</small></div></div>
+        <div class="credential"><span class="credential-icon icon-pin" aria-hidden="true"></span><div><b>Estuário - Santos</b><small>Coração do porto</small></div></div>
+      </div>
+    </section>
+
+    <!-- QUEM SOMOS -->
+    <section class="section intro" id="quemsomos" aria-labelledby="quemsomos-title">
+      <div class="container intro-grid">
+        <div class="image-stack" data-reveal>
+          <div class="image-stack-card">
+            <span>O nosso papel</span>
+            <strong>Conectar origem, porto e destino.</strong>
+            <i aria-hidden="true"></i>
+          </div>
         </div>
-        <div class="container hero-layout">
-          <div class="hero-copy" data-reveal>
-            <p class="eyebrow eyebrow-light"><span></span>PORTO DE SANTOS · SP</p>
-            <h1 id="hero-title">Do Porto de Santos <em>para o mundo</em></h1>
-            <p class="hero-lead">Integramos rodovia, ferrovia e embarque marítimo em uma operação preparada para levar a força do agronegócio brasileiro mundo a fora.</p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="#quemsomos">Conheça o TES <span aria-hidden="true">↓</span></a>
-              <a class="button button-ghost" href="#contato">Entre em Contato <span aria-hidden="true">↗</span></a>
+
+        <div class="intro-copy" data-reveal>
+          <p class="eyebrow"><span></span>SOBRE NÓS</p>
+          <h2 id="quemsomos-title">Quem Somos</h2>
+          <p class="section-lead">
+            O Terminal Exportador de Santos é uma joint venture entre LDC e Cargill desde 2015.
+            No Porto de Santos, reunimos segurança, sustentabilidade, infraestrutura e melhoria
+            contínua para apoiar uma cadeia de exportação mais fluida.
+          </p>
+
+          <p class="section-lead">
+            O Terminal trará um novo conceito para o Porto de Santos: substituição de equipamentos
+            e estruturas, demolição de dois armazéns, construção de 11 silos de concreto e novos
+            shiploaders mais modernos, eficientes e com menor emissão de particulado no embarque.
+          </p>
+
+          <a class="text-link" href="#missaovisaovalores">
+            Conheça o que nos orienta <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MOVIMENTAÇÃO -->
+    <section class="section movement" id="movimentacao" aria-labelledby="movimentacao-title">
+      <div class="movement-bg" aria-hidden="true"></div>
+      <div class="container movement-layout">
+        <div class="movement-copy" data-reveal>
+          <p class="eyebrow eyebrow-light"><span></span>MOVIMENTAÇÃO</p>
+          <h2 id="movimentacao-title">Resultados que <em>movimentam o agronegócio.</em></h2>
+          <p class="section-lead">
+            O TES atende cadeias estratégicas de soja, milho e farelo. Em 2022 registramos omaior volume histórico.
+          </p>
+
+          <div class="record-badge">
+            <span>Recorde histórico</span>
+            <strong>4.489.250 <small>toneladas</small></strong>
+            <b>2022 · STS 04</b>
+          </div>
+        </div>
+
+        <figure class="movement-chart" data-reveal aria-labelledby="chart-title">
+          <figcaption id="chart-title">
+            <span>MOVIMENTAÇÃO NOS ÚLTIMOS 5 ANOS</span>
+            <small>TONELADAS · STS 04</small>
+          </figcaption>
+
+          <div class="chart-bars" aria-hidden="true">
+            <div class="chart-bar" style="--bar: 52%">
+              <i></i><span>2018</span><b>2,34 mi</b>
+            </div>
+            <div class="chart-bar" style="--bar: 51%">
+              <i></i><span>2019</span><b>2,30 mi</b>
+            </div>
+            <div class="chart-bar" style="--bar: 57%">
+              <i></i><span>2020</span><b>2,55 mi</b>
+            </div>
+            <div class="chart-bar" style="--bar: 54%">
+              <i></i><span>2021</span><b>2,44 mi</b>
+            </div>
+            <div class="chart-bar chart-bar-highlight" style="--bar: 100%">
+              <i></i><span>2022</span><b>4,49 mi</b>
             </div>
           </div>
+        </figure>
+      </div>
+    </section>
 
-          <aside class="hero-panel" aria-label="Resumo do TES" data-reveal>
-            <div class="hero-panel-top"><span class="pulse-dot" aria-hidden="true"></span>Terminal Conectado</div>
-            <p>Movimentação Recorde em Toneladas</p>
-            <div class="hero-kpi"><strong>4,49 milhões</strong><span>STS 04 (2022)</span></div>
-            <div class="hero-panel-bottom"><span>BRASIL · SP, Santos</span></div>
-          </aside>
+    <!-- INFORMAÇÕES TÉCNICAS -->
+    <section class="section operation" id="informacoestecnicas" aria-labelledby="infotecnicas-title">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow"><span></span>INFRAESTRUTURA</p>
+          <h2 id="infotecnicas-title">Informações Técnicas</h2>
+          <p>Da origem ao destino, cada etapa é conduzida sob rigorosos critérios de segurança operacional, qualidade e melhoria contínua.</p>
         </div>
 
-        <div class="hero-scroll container" aria-hidden="true"><span>Explore o Terminal</span><i></i></div>
-      </section>
+        <div class="process process-flow" data-reveal>
+          <div class="process-heading">
+            <span class="process-title">Fluxo Operacional do Processo</span>
+          </div>
 
-      <!-- DESTAQUES RÁPIDO -->
-      <section class="credentials" aria-label="Destaques institucionais">
-        <div class="container credentials-grid" data-reveal>
-          <div class="credential"><span class="credential-icon icon-archive" aria-hidden="true"></span><div><b>Dede 2015</b><small>História de integração</small></div></div>
-          <div class="credential"><span class="credential-icon icon-silo" aria-hidden="true"></span><div><b>11 Silos de Concreto</b><small>Infraestrutura de armazenamento</small></div></div>
-          <div class="credential"><span class="credential-icon icon-grain" aria-hidden="true"></span><div><b>Soja, Milho e Farelo</b><small>Commodities movimentadas</small></div></div>
-          <div class="credential"><span class="credential-icon icon-pin" aria-hidden="true"></span><div><b>Estuário · Santos</b><small>Coração do porto</small></div></div>
+          <ol class="process-steps">
+            <li><span class="process-number">01</span><div><b>Logística</b><small>Inteligência na gestão</small></div></li>
+            <li><span class="process-number">02</span><div><b>Caminhão / Vagão</b><small>Transporte ao terminal</small></div></li>
+            <li><span class="process-number">03</span><div><b>Recebimento</b><small>Entrada e conferência</small></div></li>
+            <li><span class="process-number">04</span><div><b>Qualidade</b><small>Análise do produto</small></div></li>
+            <li><span class="process-number">05</span><div><b>Armazenagem</b><small>Silos e armazém</small></div></li>
+            <li><span class="process-number">06</span><div><b>Embarque</b><small>Carregamento ao navio</small></div></li>
+            <li><span class="process-number">07</span><div><b>Navio</b><small>Carga no porão</small></div></li>
+          </ol>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- QUEM SOMOS -->
-      <section class="section intro" id="quemsomos" aria-labelledby="quemsomos-title">
-        <div class="container intro-grid">
-          <div class="image-stack" data-reveal>
-            <img class="image-stack-main" src="assets/photos/tesbusiness.png">
-            <div class="image-stack-card"><span>O nosso papel</span><strong>Conectar origem, porto e destino.</strong><i aria-hidden="true">→</i></div>
-          </div>
-          <div class="intro-copy" data-reveal>
-            <h2 id="quemsomos-title">Quem Somos</h2>
-            <p class="section-lead">
-              O Terminal Exportador de Santos é uma joint venture entre LDC e Cargill desde 2015. No Porto de Santos, reunimos segurança, sustentabilidade, infraestrutura e melhoria contínua para apoiar uma cadeia de exportação mais fluida.
-            </p>
-            <p class="section-lead">
-              O terminal trará um novo conceito para o Porto de Santos. O projeto consiste na substituição de todos os equipamentos e estruturas, incluindo a demolição de dois armazéns, a construção de 11 silos de concreto e a substituição de shiploaders por equipamentos mais modernos e eficientes para reduzir a emissão de particulado durante o embarque.
-            </p>
-            <a class="text-link" href="#missaovisaovalores">Conheça o que nos orienta <span aria-hidden="true">→</span></a>
-          </div>
+    <!-- MISSÃO, VISÃO e VALORES -->
+    <section class="section pillars" id="missaovisaovalores" aria-labelledby="pilares-title">
+      <div class="container">
+        <div class="section-heading pillars-heading" data-reveal>
+          <p class="eyebrow"><span></span>O QUE NOS ORIENTA</p>
+          <h2 id="pilares-title">Os Três Pilares</h2>
+          <p>Mais do que conceitos.</p>
+          <p> 
+            Missão, visão e valores representam o compromisso que guia nossas ações e fortalece nossa
+            atuação todos os dias.
+          </p>
         </div>
-      </section>
 
-      <!-- MOVIMENTAÇÃO -->
-      <section class="section movement" id="movimentacao" aria-labelledby="movimentacao-title">
-        <div class="movement-bg" aria-hidden="true"></div>
-        <div class="container movement-layout">
-          <div class="movement-copy" data-reveal>
-            <p class="eyebrow eyebrow-light"><span></span>MOVIMENTAÇÃO</p>
-            <h2 id="movimentacao-title">Resultados que <em>movimentam o agronegócio.</em></h2>
-            <p class="section-lead">O TES atende cadeias estratégicas de soja, milho e farelo. Em 2022, registrou o maior volume histórico divulgado em seu site institucional.</p>
-            <div class="record-badge"><span>Recorde Histórico</span><strong>4.489.250 <small> toneladas</small></strong><b>2022 · STS 04</b></div>
-          </div>
-          <figure class="movement-chart" data-reveal aria-labelledby="chart-title">
-            <figcaption id="chart-title"><span>MOVIMENTAÇÃO NOS ÚLTIMOS 5 ANOS</span><small>TONELADAS · STS 04</small></figcaption>
-            <div class="chart-bars" aria-hidden="true">
-              <div class="chart-bar"><i style="--bar: 52%"></i><span>2018</span><b>2,34 mi</b></div>
-              <div class="chart-bar"><i style="--bar: 51%"></i><span>2019</span><b>2,30 mi</b></div>
-              <div class="chart-bar"><i style="--bar: 57%"></i><span>2020</span><b>2,55 mi</b></div>
-              <div class="chart-bar"><i style="--bar: 54%"></i><span>2021</span><b>2,44 mi</b></div>
-              <div class="chart-bar chart-bar-highlight"><i style="--bar: 100%"></i><span>2022</span><b>4,49 mi</b></div>
+        <div class="pillars-grid" data-reveal>
+          <article class="pillar">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"></circle>
+                <circle cx="12" cy="12" r="5"></circle>
+                <circle cx="12" cy="12" r="1.5" fill="currentColor"></circle>
+                <path d="M12 3v3M12 18v3M3 12h3M18 12h3"></path>
+              </svg>
             </div>
-            <table class="sr-only"><caption>Histórico de movimentação em toneladas</caption><thead><tr><th>Ano</th><th>Toneladas</th></tr></thead><tbody><tr><td>2018</td><td>2.335.664</td></tr><tr><td>2019</td><td>2.299.210</td></tr><tr><td>2020</td><td>2.545.982</td></tr><tr><td>2021</td><td>2.440.931</td></tr><tr><td>2022</td><td>4.489.250</td></tr></tbody></table>
-          </figure>
+
+            <span class="pillar-tag">Missão</span>
+            <h3>Nossa razão de existir</h3>
+            <p>
+              Ser referência em operação portuária de granéis sólidos no Brasil, gerando
+              resultados sustentáveis, superando as expectativas de nossos clientes e colaboradores.
+            </p>
+          </article>
+
+          <article class="pillar">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+            <span class="pillar-tag">Visão</span>
+            <h3>Onde queremos chegar</h3>
+            <p>
+              Ser um elo logístico essencial para a cadeia do agronegócio, através do desempenho
+              portuário sustentável, seguro e eficiente, cuidando das pessoas e ajudando a suprir
+              o mundo com alimentos, de forma ética e inovadora.
+            </p>
+          </article>
+
+          <article class="pillar pillar-featured">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3 4 6v6c0 4.5 3.4 8.6 8 9 4.6-.4 8-4.5 8-9V6l-8-3Z"></path>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+            </div>
+            <span class="pillar-tag">Valores</span>
+            <h3>Como agimos todo dia</h3>
+            <p>
+              Ética, Sustentabilidade, Cooperação, Melhoria Contínua, Senso de Dono, Excelência
+              do Negócio, Diversidade e Cuidar das Pessoas.
+            </p>
+            <a class="text-link-light" href="#principioseticos" style="margin-top: 1rem">
+              Ver princípios éticos <span aria-hidden="true">→</span>
+            </a>
+          </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- INFORMAÇÕES TÉCNICAS --->
-      <section class="section operation" id="informacoestecnicas" aria-labelledby="infotecnicas-title">
-        <div class="container">
-          <div class="section-heading" data-reveal>
-            <h2 id="infotecnicas-title">Informações Técnicas</h2>
-          </div>
-          <div class="process process-flow" data-reveal>
-            <div class="process-heading"><span class="process-title">Fluxo Operacional</span><span class="process-note">Da origem ao destino, com uma visão integrada.</span></div>
-            <ol class="process-steps process-steps-flow">
-              <li><span class="process-number">01</span><div><b>Logística</b><small>Inteligência na gestão</small></div></li>
-              <li><span class="process-number">02</span><div><b>Caminhão / Vagão</b><small>Transporte ao terminal</small></div></li>
-              <li><span class="process-number">03</span><div><b>Recebimento</b><small>Entrada e conferência</small></div></li>
-              <li><span class="process-number">04</span><div><b>Qualidade</b><small>Análise do produto</small></div></li>
-              <li><span class="process-number">05</span><div><b>Armazenagem</b><small>Estocagem no silos e armazém</small></div></li>
-              <li><span class="process-number">06</span><div><b>Embarque</b><small>Carregamento para o navio</small></div></li>
-              <li><span class="process-number">07</span><div><b>Navio</b><small>Recebimento de carga no porão</small></div></li>
-            </ol>
-          </div>
-        </div>
-      </section>
-
-      <!-- OS TRÊS PILARES -->
-      <section class="section governance" id="missaovisaovalores" aria-labelledby="pilares-title">
-        <div class="container">
-          <div class="section-heading governance-heading" data-reveal>
-            <p class="eyebrow"><span></span>O QUE NOS ORIENTA</p>
-            <h2 id="pilares-title">Os Três Pilares</h2>
-            <p>Da recepção ao embarque, cada etapa é conduzida sob rigorosos critérios de segurança operacional, conformidade e melhoria contínua.</p>
-          </div>
-
-          <div class="value-grid" data-reveal>
-            <article class="value-card">
-              <span>01</span>
-              <h3>Missão</h3>
-              <p>Ser referência em operação portuária de granéis sólidos no Brasil, gerando resultados sustentáveis, superando as expectativas de nossos clientes e colaboradores.</p>
-            </article>
-
-            <article class="value-card">
-              <span>02</span>
-              <h3>Visão</h3>
-              <p>Ser um elo logístico essencial para a cadeia do agronegócio, através do desempenho portuário sustentável, seguro e eficiente, cuidando das pessoas e ajudando a suprir o mundo com alimentos, de forma ética e inovadora.</p>
-            </article>
-
-            <article class="value-card">
-              <span>02</span>
-              <h3>Valores</h3>
-              <p>Ser um elo logístico essencial para a cadeia do agronegócio, através do desempenho portuário sustentável, seguro e eficiente, cuidando das pessoas e ajudando a suprir o mundo com alimentos, de forma ética e inovadora.</p>
-            
-              <article class="value-card value-card-featured"><span>03</span><h3>Ética</h3><p>Colocar em prática os valores morais, com honestidade e respeito, sendo responsável pelo cumprimento de normas e procedimentos, de forma íntegra e transparente, com base no nosso Código de Conduta.</p></article>
-              <article class="value-card value-card-featured"><span>04</span><h3>Sustentabilidade</h3><p>Adotar práticas sustentáveis, com hábitos de consumo consciente, redução de desperdício, conservação e manutenção do meio ambiente, mantendo boa relação com o meio em que está inserida e respeito com as gerações futuras.</p></article>
-              <article class="value-card value-card-featured"><span>05</span><h3>Cooperação entre Áreas</h3><p>Desenvolver a conexão, engajamento e aproximação das pessoas, com apoio nas atividades diárias, na resolução de problemas e estimulando novas ideias para obtenção de resultados ainda maiores.</p></article>
-              <article class="value-card value-card-featured"><span>06</span><h3>Melhoria Contínua</h3><p>Otimizar os processos, incentivar novas ideias e a busca por tecnologia, estimulando a aprendizagem contínua da equipe e identificando pessoas movidas a desafios, tirando-as de sua "zona de conforto".</p></article>
-              <article class="value-card value-card-featured"><span>07</span><h3>Senso de Dono</h3><p>Fazer do ambiente de trabalho uma extensão da sua casa, tomando conta dos equipamentos e dos procedimentos com responsabilidade; agir com senso de urgência, atenção e cuidado.</p></article>
-              <article class="value-card value-card-featured"><span>08</span><h3>Excelência do Negócio</h3><p>Atender as expectativas de todos os envolvidos em nosso sistema logístico e ser número um em aprimoramento tecnológico e otimização de processos, visando uma Empresa competitiva e de alta performance.</p></article>
-              <article class="value-card value-card-featured"><span>09</span><h3>Diversidade e Inclusão</h3><p>Agir de forma empática, proporcionando a todos(as) o respeito e a oportunidade de cultivar um ambiente multicultural com diversidade de ideias e experiências.</p></article>
-              <article class="value-card value-card-featured"><span>10</span><h3>Cuidar das Pessoas</h3><p>Ter como prática a escuta ativa aos nossos colaboradores(as), garantir desenvolvimento pessoal, profissional e qualidade de vida no ambiente organizacional, valorizando a individualidade de cada um.</p></article>
-            
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- PRINCÍPIOS ÉTICOS -->
-      <section class="section governance" id="principioseticos" aria-labelledby="principios-title">
-        <div class="container">
-          <div class="section-heading governance-heading" data-reveal>
-            <h2 id="principios-title">Princípios Éticos</h2>
-            <p>Integridade, transparência e responsabilidade socioambiental orientam nossas decisões, sustentadas por canais seguros de conduta ética.</p>
-          </div>
-
-          <div class="value-grid" data-reveal>
-            <article class="value-card"><span>01</span><h3>Ética</h3><p>Colocar em prática os valores morais, com honestidade e respeito, sendo responsável pelo cumprimento de normas e procedimentos, de forma íntegra e transparente, com base no nosso Código de Conduta.</p></article>
-            <article class="value-card"><span>02</span><h3>Sustentabilidade</h3><p>Adotar práticas sustentáveis, com hábitos de consumo consciente, redução de desperdício, conservação e manutenção do meio ambiente, mantendo boa relação com o meio em que está inserida e respeito com as gerações futuras.</p></article>
-            <article class="value-card"><span>03</span><h3>Cooperação entre Áreas</h3><p>Desenvolver a conexão, engajamento e aproximação das pessoas, com apoio nas atividades diárias, na resolução de problemas e estimulando novas ideias para obtenção de resultados ainda maiores.</p></article>
-            <article class="value-card"><span>04</span><h3>Melhoria Contínua</h3><p>Otimizar os processos, incentivar novas ideias e a busca por tecnologia, estimulando a aprendizagem contínua da equipe e identificando pessoas movidas a desafios, tirando-as de sua "zona de conforto".</p></article>
-            <article class="value-card"><span>05</span><h3>Senso de Dono</h3><p>Fazer do ambiente de trabalho uma extensão da sua casa, tomando conta dos equipamentos e dos procedimentos com responsabilidade; agir com senso de urgência, atenção e cuidado.</p></article>
-            <article class="value-card"><span>06</span><h3>Excelência do Negócio</h3><p>Atender as expectativas de todos os envolvidos em nosso sistema logístico e ser número um em aprimoramento tecnológico e otimização de processos, visando uma Empresa competitiva e de alta performance.</p></article>
-            <article class="value-card"><span>07</span><h3>Diversidade e Inclusão</h3><p>Agir de forma empática, proporcionando a todos(as) o respeito e a oportunidade de cultivar um ambiente multicultural com diversidade de ideias e experiências.</p></article>
-            <article class="value-card"><span>08</span><h3>Cuidar das Pessoas</h3><p>Ter como prática a escuta ativa aos nossos colaboradores(as), garantir desenvolvimento pessoal, profissional e qualidade de vida no ambiente organizacional, valorizando a individualidade de cada um.</p></article>
-          </div>
+    <!-- PRINCÍPIOS ÉTICOS -->
+    <section class="section ethics" id="principioseticos" aria-labelledby="principios-title">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow"><span></span>CÓDIGO DE CONDUTA</p>
+          <h2 id="principios-title">Princípios Éticos</h2>
+          <p>
+            Integridade, transparência e responsabilidade socioambiental orientam nossas decisões, sustentadas
+            por canais seguros de conduta ética.
+          </p>
         </div>
 
-        <div class="container">
-          <div class="ethics-banner" data-reveal>
-            <div class="ethics-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M24 5 39 11v10c0 10-6.5 17-15 21-8.5-4-15-11-15-21V11l15-6Z" stroke="currentColor" stroke-width="2.5"/><path d="m17 24 5 5 10-11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-            <div><p class="card-kicker">CANAL DE ÉTICA</p><h3>Integridade faz parte da nossa rota.</h3><p>Um canal seguro para comunicações responsáveis, disponível a todos os públicos.</p></div>
-            <a class="button button-dark" href="https://contatoseguro.com.br/teg-teag-tes" target="_blank" rel="noopener">Acessar o canal <span aria-hidden="true">↗</span></a>
-          </div>
+        <div class="ethics-grid" data-reveal>
+          <article class="value-card"><span>01</span>
+            <h3>Conformidade Legal</h3>
+            <p>
+              Prezamos pelo cumprimento da legislação à qual estamos sujeitos e somos contrários a qualquer ação
+              de terceiro que leve à sua violação.
+            </p>
+          </article>
+
+          <article class="value-card"><span>02</span>
+            <h3>Integridade Comercial</h3>
+            <p>
+              Honramos todas as obrigações comerciais que assumimos com integridade, mantendo os registros de
+              nossos negócios com exatidão.
+            </p>
+          </article>
+
+          <article class="value-card"><span>03</span>
+            <h3>Combate à Corrupção</h3>
+            <p>
+              Rejeitamos pagar ou receber suborno e não participamos de qualquer outra prática an ética,
+              fraudulenta ou corrupta.
+            </p>
+          </article>
+
+          <article class="value-card"><span>04</span>
+            <h3>Respeito às Pessoas</h3>
+            <p>
+              Investimos em um ambiente de trabalho digno, seguro e saudável. Somos contrários a qualquer
+              forma de assédio, discriminação, trabalho infantil ou forçado.
+            </p>
+          </article>
+
+          <article class="value-card"><span>05</span>
+            <h3>Transparência</h3>
+            <p>
+              Devemos agir com transparência, evitando criar conﬂitos de interesse entre assuntos pessoais e
+              as atividades dos terminais.
+            </p>
+          </article>
+
+          <article class="value-card"><span>06</span>
+            <h3>Ética e Reputação</h3>
+            <p>
+              Zelamos pela imagem e reputação dos Terminais mediante a prática de uma conduta ética, digna e
+              de respeito às pessoas e à lei.
+            </p>
+          </article>
+
+          <article class="value-card"><span>07</span>
+            <h3>Confidencialidade</h3>
+            <p>
+              Nos comprometemos em manter o sigilo e a conﬁdencialidade das informações críticas, estratégicas
+              e de negócios dos terminais.
+            </p>
+          </article>
+
+          <article class="value-card"><span>08</span>
+            <h3>Sustentabilidade</h3>
+            <p>
+              Promovemos práticas ambientais responsáveis e o desenvolvimento sustentável em nossa cadeia logística.
+            </p>
+          </article>
         </div>
-      </section>
 
-      <!-- CONTATO -->
-      <section class="section contact" id="contato" aria-labelledby="contato-title">
-        <div class="container contact-layout">
-          <div class="contact-copy" data-reveal>
+        <div class="ethics-banner" data-reveal>
+          <div class="ethics-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="M24 5 39 11v10c0 10-6.5 17-15 21-8.5-4-15-11-15-21V11l15-6Z" stroke="currentColor" stroke-width="2.5"></path>
+              <path d="m17 24 5 5 10-11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+          <div>
+            <p class="card-kicker">CANAL DE ÉTICA</p>
+            <h3>Integridade faz parte da nossa rota.</h3>
+            <p>Um canal seguro para comunicações responsáveis, disponível a todos os públicos.</p>
+          </div>
+          <a class="button button-dark" href="https://contatoseguro.com.br/teg-teag-tes" target="_blank" rel="noopener noreferrer">
+            Acessar o canal <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
 
-            <p class="eyebrow eyebrow-light"><span></span> CONTATO</p>
+    <!-- LINKS ÚTEIS -->
+    <section class="section useful-links" id="linksuteis" aria-labelledby="links-title">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow"><span></span>ACESSO RÁPIDO</p>
+          <h2 id="links-title">Links Úteis</h2>
+          <p>
+            Reunimos os principais órgãos, entidades e serviços relacionados às operações portuárias, facilitando
+            o acesso a informações, regulamentações e instituições essenciais para o setor logístico e marítimo.
+          </p>
+        </div>
 
-            <h2 id="contato-title">Vamos abrir uma <em>nova rota de conversa.</em></h2>
+        <div class="link-grid" data-reveal>
+          <a class="link-card" href="https://abtra.com.br/home/PT" target="_blank" rel="noopener noreferrer">
+            <div class="link-card-body"><b>ABTRA</b><small>Associação Brasileira de Terminais e Recintos Alfandegados</small></div>
+            <span class="link-card-arrow" aria-hidden="true">↗</span>
+          </a>
 
-            <p>Para assuntos institucionais, comerciais ou operacionais, nossa equipe está pronta para direcionar você.</p>
+          <a class="link-card" href="https://www.antaq.gov.br/Portal/default.asp" target="_blank" rel="noopener noreferrer">
+            <div class="link-card-body"><b>ANTAQ</b><small>Agência Nacional de Transporte Aquaviário</small></div>
+            <span class="link-card-arrow" aria-hidden="true">↗</span>
+          </a>
 
-            <div class="contact-details">
-              <a href="tel:+551332781700"><span aria-hidden="true">✦</span><div><small>Telefone</small><b>+55 (13) 3278-1700</b></div></a>
-              <a href="mailto:contato@tesporto.com.br"><span aria-hidden="true">✦</span><div><small>E-mail</small><b>contato@tesporto.com.br</b></div></a>
+          <a class="link-card" href="https://www.cetesb.sp.gov.br/cetesb" target="_blank" rel="noopener noreferrer">
+            <div class="link-card-body"><b>CETESB</b><small>Companhia Ambiental do Estado de São Paulo</small></div>
+            <span class="link-card-arrow" aria-hidden="true">↗</span>
+          </a>
 
-              <a href="https://maps.app.goo.gl/5aqZUrAP55DKYbxz7" target="_blank" rel="noopener">
-                <span aria-hidden="true">✦</span>
-                <div>
-                  <small>Localização</small>
-                  <b>Estuário · Santos, SP</b>
-                </div>
+          <a class="link-card" href="https://www.mar.mil.br/cpsp/" target="_blank" rel="noopener noreferrer">
+            <div class="link-card-body"><b>CPSP</b><small>Capitania dos Portos de São Paulo</small></div>
+            <span class="link-card-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="link-card" href="https://www.gov.br/ibama/pt-br" target="_blank" rel="noopener noreferrer">
+            <div class="link-card-body"><b>IBAMA</b><small>Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis</small></div>
+            <span class="link-card-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="link-card" href="https://www.gov.br/inpe/pt-br" target="_blank" rel="noopener noreferrer">
+            <div class="link-card-body"><b>INPE</b><small>Instituto Nacional de Pesquisas Espaciais</small></div>
+            <span class="link-card-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="link-card" href="https://www.ogmo-santos.com.br/site/home/" target="_blank" rel="noopener noreferrer">
+            <div class="link-card-body"><b>OGMO</b><small>Órgão Gestor de Mão de Obra Portuário do Porto Organizado de Santos</small></div>
+            <span class="link-card-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="link-card" href="https://www.portodesantos.com.br/" target="_blank" rel="noopener noreferrer">
+            <div class="link-card-body"><b>Porto de Santos</b><small>Complexo Portuário de Santos</small></div>
+            <span class="link-card-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="link-card" href="https://www.sppilots.com.br/?cmd=SETPRT&prt=1" target="_blank" rel="noopener noreferrer">
+            <div class="link-card-body"><b>Praticagem de Santos</b><small>Serviço de Praticagem da Zona de Praticagem de Santos</small></div>
+            <span class="link-card-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="link-card" href="https://www.santos.sp.gov.br/" target="_blank" rel="noopener noreferrer">
+            <div class="link-card-body"><b>Prefeitura Municipal de Santos</b><small>Administração Pública Municipal de Santos</small></div>
+            <span class="link-card-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO CHEGAR -->
+    <section class="section location" id="comochegar" aria-labelledby="chegar-title">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow eyebrow-light"><span></span>LOCALIZAÇÃO</p>
+          <h2 id="chegar-title">Como Chegar</h2>
+          <p>Estamos no coração do Porto de Santos, litoral do estado de São Paulo — o principal complexo portuário da América Latina.</p>
+        </div>
+
+        <div class="location-layout">
+          <div class="location-info" data-reveal>
+            <div class="location-info-item">
+              <span>Endereço</span>
+              <b>Av. Gov. Mário Covas Júnior, s/n</b>
+              <p>Armazéns XL, XLII e 38 · Estuário · Santos/SP · CEP 11020-300</p>
+            </div>
+
+            <div class="location-info-item">
+              <span>Contato local</span>
+              <b>+55 (13) 3278-1700</b>
+              <p>contato@tesporto.com.br</p>
+            </div>
+
+            <div class="map-cta">
+              <a class="button button-primary" href="https://maps.app.goo.gl/5aqZUrAP55DKYbxz7" target="_blank" rel="noopener noreferrer">
+                Abrir no Google Maps <span aria-hidden="true">↗</span>
               </a>
             </div>
           </div>
 
-          <form class="contact-form" data-contact-form data-reveal>
-            <div class="form-heading">
-              <span>Fale conosco</span>
-              <small>Retornaremos pelo melhor canal informado.</small>
-            </div>
+          <div class="map-wrap" data-reveal>
+            <svg class="brazil-map" viewBox="0 0 800 800" role="img" aria-label="Mapa do Brasil com destaque para o estado de São Paulo e a cidade de Santos">
+              <path d="M340 90 L420 80 L470 110 L520 140 L560 180 L590 230 L640 260 L680 300 L700 360 L710 420 L690 480 L660 540 L620 590 L580 630 L540 670 L490 700 L440 710 L390 700 L340 680 L300 640 L270 590 L250 530 L240 470 L230 410 L220 350 L230 290 L250 230 L280 180 L310 130 Z"></path>
+              <path class="sp-state" d="M470 440 L540 430 L590 445 L610 480 L590 520 L540 540 L490 535 L455 510 L445 475 Z"></path>
 
-            <div class="form-row">
-              <label>Nome<input name="nome" autocomplete="name" /></label>
-              <label>Empresa<input name="empresa" autocomplete="organization" /></label>
-            </div>
+              <circle class="santos-pulse-ring" cx="545" cy="530" r="6"></circle>
+              <circle class="santos-pulse" cx="545" cy="530" r="7"></circle>
 
-            <div class="form-row">
-              <label>E-mail<input type="email" name="email" autocomplete="email" /></label>
-              <label>Telefone<input type="tel" name="telefone" autocomplete="tel" /></label>
-            </div>
-
-            <label>Assunto<textarea name="mensagem" rows="5"></textarea></label>
-
-            <div class="form-submit">
-              <button class="button button-primary" type="submit">Enviar mensagem <span aria-hidden="true">↗</span></button>
-              <p data-form-status role="status" aria-live="polite"></p>
-            </div>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <div class="footer-brand">
-
-          <a class="brand" href="#inicio" aria-label="Voltar ao início">
-            <span class="brand-mark" aria-hidden="true">
-              <img src="assets/images/isotipo-tes.png" alt="TES - Terminal Exportador de Santos">
-            </span>
-
-            <span class="brand-copy"><b>TES</b>
-              <small>Terminal Exportador de Santos</small>
-            </span>
-          </a>
-
-          <p>Um elo logístico essencial para a cadeia do agronegócio.</p>
-          <a class="linkedin-link" href="https://www.linkedin.com/company/tegteagtes/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
-        </div>
-        
-        <div class="footer-links">
-          <div><b>Institucional</b>
-            <a href="#quemsomos">Terminal</a>
-            <a href="#comochegar">Localização</a>
-          </div>
-          
-          <div>
-            <b>Relacionamento</b>
-            <a href="#contato">Contato</a>
-            <a href="https://contatoseguro.com.br/teg-teag-tes" target="_blank" rel="noopener">Canal de Ética</a>
-            <a href="https://www.vagas.com.br/" target="_blank" rel="noopener">Trabalhe conosco</a>
+              <text x="560" y="525" fill="#fff" font-size="14" font-weight="700" font-family="Plus Jakarta Sans, sans-serif">Santos</text>
+              <text x="500" y="470" fill="#061b33" font-size="13" font-weight="800" font-family="Plus Jakarta Sans, sans-serif">SP</text>
+            </svg>
+            <span class="map-label"><b>●</b> Santos · SP - Porto de Santos</span>
           </div>
         </div>
+      </div>
+    </section>
 
-        <address>
-          <b>TES - Terminal Exportador de Santos S.A.</b>
-          <span>Av. Governador Mário Covas Júnior, s/n</span>
-          <span>Armazéns XL, XLII e 38 · Estuário</span>
-          <span>Santos/SP · CEP 11020-300</span>
-        </address>
+    <!-- POLÍTICA DO SIG -->
+    <section class="section sig" id="politicasig" aria-labelledby="sig-title">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow"><span></span>POLÍTICA DO SIG</p>
+          <h2 id="sig-title">Política do Sistema Integrado de Gestão</h2>
+        </div>
+
+        <div class="sig-intro" data-reveal>
+          <span>Escopo da Política</span>
+          <p>
+            <strong>SIG -</strong> Prestação de Serviços de Operações Portuárias: Recebimento, armazenagem e embarque de produtos de origem vegetal a granel.
+          </p>
+
+          <p>
+            <strong>GMP + B3 -</strong> Boas Práticas de Fabricação - Operações Portuárias: Recebimento, armazenagem e embarque de farelo de soja e polpa cítrica.
+          </p>
+        </div>
+
+        <p>Comprometemo-nos a:</p>
+        <div class="sig-grid" data-reveal>
+          <article class="sig-card">
+            <div class="sig-check" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m5 12 5 5L20 7"></path>
+              </svg>
+            </div>
+            <div class="sig-card-body"><b>1</b><p>x</p></div>
+          </article>
+
+          <article class="sig-card">
+            <div class="sig-check" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m5 12 5 5L20 7"></path>
+              </svg>
+            </div>
+            <div class="sig-card-body"><b>2</b><p>x</p></div>
+          </article>
+
+          <article class="sig-card">
+            <div class="sig-check" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m5 12 5 5L20 7"></path>
+              </svg>
+            </div>
+            <div class="sig-card-body"><b>3</b><p>x</p></div>
+          </article>
+
+          <article class="sig-card">
+            <div class="sig-check" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m5 12 5 5L20 7"></path>
+              </svg>
+            </div>
+            <div class="sig-card-body"><b>4</b><p>x</p></div>
+          </article>
+
+          <article class="sig-card">
+            <div class="sig-check" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m5 12 5 5L20 7"></path>
+              </svg>
+            </div>
+            <div class="sig-card-body"><b>5</b><p>x</p></div>
+          </article>
+
+          <article class="sig-card">
+            <div class="sig-check" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m5 12 5 5L20 7"></path>
+              </svg>
+            </div>
+            <div class="sig-card-body"><b>6</b><p>x</p></div>
+          </article>
+
+          <small>10/02/2021 - Rev. 17</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section contact" id="contato" aria-labelledby="contato-title">
+      <div class="container contact-layout">
+        <div class="contact-copy" data-reveal>
+          <p class="eyebrow eyebrow-light"><span></span> CONTATO</p>
+          <h2 id="contato-title">Vamos abrir uma <em>nova rota de conversa.</em></h2>
+          <p>Para assuntos institucionais, comerciais ou operacionais, nossa equipe está pronta para direcionar você.</p>
+
+          <div class="contact-details">
+            <a href="tel:+551332781700">
+              <span aria-hidden="true">✦</span>
+              <div><small>Telefone</small><b>+55 (13) 3278-1700</b></div>
+            </a>
+
+            <a href="mailto:contato@tesporto.com.br">
+              <span aria-hidden="true">✦</span>
+              <div><small>E-mail (não mandar currículo nesse e-mail)</small><b>contato@tesporto.com.br</b></div>
+            </a>
+
+            <a href="https://maps.app.goo.gl/5aqZUrAP55DKYbxz7" target="_blank" rel="noopener noreferrer">
+              <span aria-hidden="true">✦</span>
+              <div><small>Localização</small><b>Estuário · Santos, SP</b></div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" data-contact-form data-reveal>
+          <div class="form-heading">
+            <span>Fale conosco</span>
+            <small>Retornaremos pelo melhor canal informado.</small>
+          </div>
+
+          <div class="form-row">
+            <label>Nome<input name="nome" autocomplete="name"></label>
+            <label>Empresa<input name="empresa" autocomplete="organization"></label>
+          </div>
+
+          <div class="form-row">
+            <label>E-mail<input type="email" name="email" autocomplete="email"></label>
+            <label>Telefone<input type="tel" name="telefone" autocomplete="tel"></label>
+          </div>
+
+          <label>Assunto<textarea name="mensagem" rows="5"></textarea></label>
+
+          <div class="form-submit">
+            <button class="button button-primary" type="submit">Enviar mensagem <span aria-hidden="true">↗</span></button>
+            <p data-form-status role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio" aria-label="Voltar ao início">
+          <span class="brand-mark" aria-hidden="true">TES</span>
+          <span class="brand-copy">
+            <b>TES</b>
+            <small>Terminal Exportador de Santos</small>
+          </span>
+        </a>
+        <p>Um elo logístico essencial para a cadeia do agronegócio.</p>
+        <a class="linkedin-link" href="https://www.linkedin.com/company/tegteagtes/" target="_blank" rel="noopener noreferrer">
+          LinkedIn <span aria-hidden="true">↗</span>
+        </a>
       </div>
 
-      <div class="container footer-bottom">
-        <span>© <span data-current-year></span> TES. Todos os direitos reservados.</span>
+      <div class="footer-links">
+        <div>
+          <b>Institucional</b>
+          <a href="#quemsomos">Terminal</a>
+          <a href="#comochegar">Localização</a>
+          <a href="#missaovisaovalores">Os Três Pilares</a>
+          <a href="#politicasig">Política do SIG</a>
+        </div>
 
-        <span>Projeto institucional · dados de movimentação: histórico público até 2022.</span>
+        <div>
+          <b>Relacionamento</b>
+          <a href="#contato">Contato</a>
+          <a href="#linksuteis">Links Úteis</a>
+          <a href="https://contatoseguro.com.br/teg-teag-tes" target="_blank" rel="noopener noreferrer">Canal de Ética</a>
+          <a href="https://site.vagas.com.br/MsgPagEmprDesativ-Benvido.asp?t=340" target="_blank" rel="noopener noreferrer">Trabalhe conosco</a>
+        </div>
       </div>
-    </footer>
 
-    <a class="back-to-top" href="#inicio" aria-label="Voltar ao topo" data-back-to-top>
-      <span aria-hidden="true">↑</span>
-    </a>
+      <address>
+        <b>TES - Terminal Exportador de Santos S.A.</b>
+        <span>Av. Governador Mário Covas Júnior, s/n</span>
+        <span>Armazéns XL, XLII e 38 · Estuário</span>
+        <span>Santos/SP · CEP 11020-300</span>
+      </address>
+    </div>
 
-    <script src="script.js"></script>
-  </body>
+    <div class="container footer-bottom">
+      <span>© <span data-current-year></span> TES. Todos os direitos reservados.</span>
+      <span>Dados de movimentação: histórico público até 2022.</span>
+    </div>
+  </footer>
+
+  <a class="back-to-top" href="#inicio" aria-label="Voltar ao topo" data-back-to-top>
+    <span aria-hidden="true">↑</span>
+  </a>
+
+  <script src="./script.js" defer></script>
+</body>
 </html>
