@@ -15,7 +15,7 @@ Ou acesse o projeto desse repositório abrindo o arquivo `index.html` no chrome.
 
 ---
 
-## Estrutura do Sistema
+## Estrutura Principal do Sistema
 
 Este projeto usa 3 arquivos:
 
