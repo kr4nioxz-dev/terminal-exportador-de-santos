@@ -82,7 +82,7 @@ Arquivos principais:
     </td>
     <td>
       <strong>TypeScript</strong><br>
-      <code>src/script.ts</code> Contém tipagem estática ao JavaScript.
+      <code>src/script.ts</code> Contém toda a tipagem estática ao JavaScript.
     </td> 
   </tr>
 
